@@ -1,10 +1,10 @@
 # N-Queens Solver ♕♛
 
-## Overview 🌐
+## Overview 
 
 The **N-Queens Solver** is a program implemented in the C programming language that solves the classic N-Queens problem. The N-Queens problem is a famous combinatorial problem that involves placing N chess queens on an N×N chessboard so that no two queens threaten each other. This means no two queens can be in the same row, column, or diagonal.
 
-## Features ✨
+## Features 
 
 - **Efficient Backtracking Algorithm**: Uses a recursive backtracking approach to explore all possible positions and find solutions efficiently.
 - **Customizable Board Size**: The solution is designed for an 8x8 chessboard by default but can be modified to solve the problem for any board size N.
@@ -12,7 +12,7 @@ The **N-Queens Solver** is a program implemented in the C programming language t
 - **Multiple Solutions**: Capable of finding and displaying all possible solutions for a given N.
 - **Error Handling**: Gracefully handles cases where no solution exists and informs the user.
 
-## How It Works 🕹️
+## How It Works 
 
 1. **Run the Program**: Compile and execute the C program from a terminal or command prompt.
 2. **Recursive Backtracking**: The program places queens one by one in different columns, starting from the leftmost column. For each column, it tries all the rows for a safe position and recurses to place the rest of the queens.
@@ -34,7 +34,7 @@ Here, `Q` represents a queen, and `~` represents an empty space. The solutions a
 C Programming Language: The core logic is implemented in C, making use of fundamental programming constructs such as arrays and recursion
 
 
-## Conclusion 📝
+## Conclusion 
 
 The N-Queens Solver is a practical demonstration of using recursion and backtracking in problem-solving. It is an excellent project for understanding fundamental algorithms and data structures in C programming. By exploring multiple solutions and providing a visual representation of the results, this project serves as both an educational tool and a foundation for more advanced algorithmic studies
 
